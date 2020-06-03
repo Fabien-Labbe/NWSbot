@@ -9,6 +9,9 @@ install:
   # install modules
   - npm install
 
+# Post-install test scripts.
+test_script:
+  - node index.js
 
 # Don't actually build.
 build: off
