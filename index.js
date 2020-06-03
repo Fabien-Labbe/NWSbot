@@ -35,4 +35,4 @@ client.on('message', msg =>{
     Request.Insert(a);
 });
 
-client.login('NzE3NjQ3NzE5MzA0Mzk2ODIx.Xtdz9A.wQqCIcmwDI3f0wgVj56pNcOF5Cs');
+client.login(env.discord_token);

@@ -5,7 +5,7 @@ const requeteInsert = "INSERT INTO messages (Message, User, Heure) VALUES ?";
 let connection = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "",
+    password: "Password12",
     database: "bot-discord"
   });
   
